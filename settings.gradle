@@ -1,0 +1,3 @@
+include ':remote_repository'
+include ':app'
+rootProject.name = "RemoteRepositoryTest"
