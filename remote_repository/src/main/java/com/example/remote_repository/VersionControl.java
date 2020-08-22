@@ -17,4 +17,16 @@ public class VersionControl {
     public static VersionControl getInstance(){
         return versionControl;
     }
+
+    public String getGroup() {
+        return group;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getVersion() {
+        return version;
+    }
 }
