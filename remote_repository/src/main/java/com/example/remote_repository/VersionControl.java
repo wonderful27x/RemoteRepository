@@ -7,11 +7,13 @@ public class VersionControl {
     private String group;
     private String name;
     private String version;
+    private String testField;
 
     private VersionControl() {
         group = "wonderful";
         name = "remote_test";
         version = "1.0.0";
+        testField = "testField";
     }
 
     public static VersionControl getInstance(){
@@ -28,5 +30,9 @@ public class VersionControl {
 
     public String getVersion() {
         return version;
+    }
+
+    public String getTestField() {
+        return testField;
     }
 }
